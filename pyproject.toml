@@ -1,0 +1,20 @@
+[project]
+name = "langchain-course"
+version = "0.1.0"
+description = "nada"
+readme = "README.md"
+authors = [
+    { name = "syrine", email = "syrine.benromdane@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.4.9",
+]
+
+[project.scripts]
+langchain-course = "langchain_course:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
